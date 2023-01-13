@@ -1,0 +1,12 @@
+.page {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}

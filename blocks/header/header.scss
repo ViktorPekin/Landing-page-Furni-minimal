@@ -1,0 +1,33 @@
+.header {
+  width: 1324px;
+  min-height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  &__conteiner-logo-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__logo {
+    width: 124px;
+    height: 45px;
+    background: center / contain no-repeat url("../../images/logo.svg");
+  }
+  &__links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  &__link {
+    margin-left: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    &:first-child {
+      margin-left: 80px;
+    }
+  }
+}
