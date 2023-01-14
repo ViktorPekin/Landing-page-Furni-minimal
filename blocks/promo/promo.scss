@@ -1,0 +1,163 @@
+.promo {
+  width: 100%;
+  min-height: 825px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  &__social-network {
+    padding: 0;
+    margin: 0 110px 98px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &-link {
+      transition: scale 0.3s;
+      &:hover {
+        cursor: pointer;
+        transition: scale 0.3s;
+        scale: 1.1;
+      }
+      &_youtube {
+        margin-left: 4px;
+        margin-bottom: 46.5px;
+        width: 21px;
+        height: 14.7px;
+        background: center / contain no-repeat
+          url("../../images/youtube-icon.svg");
+      }
+      &_vk {
+        margin-left: 2px;
+        margin-bottom: 42px;
+        width: 24.41px;
+        height: 14px;
+        background: center / contain no-repeat url("../../images/vk-icon.svg");
+      }
+      &_inst {
+        margin-left: 4px;
+        margin-bottom: 49px;
+        width: 21px;
+        height: 21px;
+        background: center / contain no-repeat url("../../images/inst-icon.svg");
+      }
+    }
+  }
+  &__swiper {
+    margin: 0;
+    height: 876px;
+    width: 590px;
+    position: relative;
+    &__conatiner {
+    }
+    &-wrapper {
+      height: 825px;
+    }
+    &-slide {
+    }
+    &-button {
+      width: 204px;
+      height: 102px;
+      background-color: #fff;
+      position: absolute;
+      right: -38px;
+      bottom: 0px;
+      z-index: 1;
+      display: flex;
+      flex-direction: row;
+      &-prev {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-icon {
+          width: 45px;
+          height: 30px;
+          transition: background 0.3s;
+          background: center / contain no-repeat
+            url("../../images/Arrow\ 1.svg");
+          color: #27302e;
+        }
+        &:hover .promo__swiper-button-prev-icon {
+          cursor: pointer;
+          transition: background 0.3s;
+          background: center / contain no-repeat
+            url("../../images/Arrow\ 2.svg");
+        }
+      }
+      &-next {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-icon {
+          width: 45px;
+          height: 30px;
+          transition: background 0.3s;
+          background: center / contain no-repeat
+            url("../../images/Arrow\ 1.svg");
+          rotate: 180deg;
+        }
+        &:hover .promo__swiper-button-next-icon {
+          cursor: pointer;
+          transition: background 0.3s;
+          background: center / contain no-repeat
+            url("../../images/Arrow\ 2.svg");
+        }
+      }
+    }
+  }
+  &__info {
+    width: 592px;
+    height: 631px;
+    position: absolute;
+    top: 86px;
+    right: 172px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &-container {
+      padding: 60px 0 0 55px;
+      background-color: #f9f9f9;
+    }
+  }
+  &__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 75px;
+    color: #27302e;
+  }
+  &__text {
+    margin: 20px 0 60px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 38px;
+  }
+  &__button {
+    width: 304px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #d3be73;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #27302e;
+    transition: background-color 0.3s;
+    &:hover {
+      cursor: pointer;
+      transition: background-color 0.3s;
+      background-color: #c6b166;
+    }
+  }
+}

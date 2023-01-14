@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link href="./pages/index.css" rel="stylesheet" />
   </head>
   <body class="page">
@@ -30,7 +35,66 @@
         <div class="telephone__link">Обратный звонок</div>
       </div>
     </header>
-    <main class="content"></main>
+    <main class="content">
+      <section class="promo">
+        <div class="promo__social-network">
+          <a
+            class="promo__social-network-link promo__social-network-link_youtube"
+            href="#"
+            target="_blank"
+          ></a>
+          <a
+            class="promo__social-network-link promo__social-network-link_vk"
+            href="#"
+            target="_blank"
+          ></a>
+          <a
+            class="promo__social-network-link promo__social-network-link_inst"
+            href="#"
+            target="_blank"
+          ></a>
+        </div>
+        <div class="promo__swiper">
+          <div class="swiper promo__swiper-container">
+            <div class="swiper-wrapper promo__swiper-wrapper">
+              <img
+                class="swiper-slide promo__swiper-slide"
+                src="./images/Rectangle 1.png"
+              />
+              <img
+                class="swiper-slide promo__swiper-slide"
+                src="./images/Rectangle 1.png"
+              />
+              <img
+                class="swiper-slide promo__swiper-slide"
+                src="./images/Rectangle 1.png"
+              />
+            </div>
+          </div>
+          <div class="promo__swiper-button">
+            <div class="promo__swiper-button-prev">
+              <div class="promo__swiper-button-prev-icon"></div>
+            </div>
+            <div class="promo__swiper-button-next">
+              <div class="promo__swiper-button-next-icon"></div>
+            </div>
+          </div>
+        </div>
+        <div class="promo__info">
+          <div class="promo__info-container">
+            <h1 class="promo__title raleway">
+              Производим столы и стулья в Санкт-Петербурге
+            </h1>
+            <p class="promo__text">
+              Исключительно из экологически чистых материалов для офиса и дома.
+              Доставляем на следующий день
+            </p>
+          </div>
+          <div class="promo__button raleway">Заказать мебель</div>
+        </div>
+      </section>
+    </main>
     <footer class="footer"></footer>
+    <script src="./scripts/swiper.js"></script>
   </body>
 </html>
